@@ -1,0 +1,23 @@
+{
+    "name": "alitindrawan24/laravel-ip-whitelist",
+    "autoload": {
+        "psr-4": {
+            "Alitindrawan24\\IPWhitelist\\": "src"
+        }
+    },
+    "authors": [{
+        "name": "Alit Indrawan",
+        "email": "alitindrawan71@gmail.com"
+    }],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^8.0|^9.0|^10.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alitindrawan24\\IPWhitelist\\IPWhitelistPackageServiceProvider"
+            ]
+        }
+    }
+}
