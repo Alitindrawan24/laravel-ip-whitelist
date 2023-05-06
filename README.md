@@ -25,7 +25,7 @@ By default the IP Whitelist feature is disabled, to enable the feature you add t
 IP_WHITELIST_ENABLE=true
 ```
 
-You can add the list of IP that allowed in config/ip-whitelist.php
+You can add the list of IP that allowed in config/ip-whitelist.php using fix IP or using wildcard
 
 ```php
 /**
@@ -34,6 +34,7 @@ You can add the list of IP that allowed in config/ip-whitelist.php
  */
 'ip_whitelist' => [
     // '127.0.0.1' // Localhost example
+    // '127.0.0.*' // Using Wildcard example
 ],
 ```
 

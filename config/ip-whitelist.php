@@ -12,6 +12,7 @@ return [
      */
     'ip_whitelist' => [
         // '127.0.0.1' // Localhost example
+        // '127.0.0.*' // Using Wildcard example
     ],
 
     /**

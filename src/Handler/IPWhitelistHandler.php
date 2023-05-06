@@ -23,9 +23,14 @@ class IPWhitelistHandler
         $whitelist = config('ip-whitelist.ip_whitelist');
         $clientIP = $request->getClientIp();
 
-        if(!\in_array($clientIP, $whitelist)) {
-            $exception = \config('ip-whitelist.ip_whitelist_exception');
-            throw new $exception;
+        // Looping through the IP whitelist
+        foreach ($whitelist as $value) {
+            // Pattern matching
+            if(fnmatch($value, $clientIP)) return;
         }
+
+        // Throwing an exception if not on the whitelist
+        $exception = \config('ip-whitelist.ip_whitelist_exception');
+        throw new $exception;
     }
 }
