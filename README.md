@@ -1,6 +1,6 @@
 # laravel-ip-whitelist
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/alitindrawan24/laravel-ip-whitelist.svg?style=flat-square)](https://packagist.org/packages/alitindrawan24/laravel-ip-whitelist)
-[![Total Downloads](https://img.shields.io/packagist/dt/alitindrawan24/laravel-ip-whitelist.svg?style=flat-square)](https://packagist.org/packages/alitindrawan24/laravel-ip-whitelist)
+[![Total Downloads](https://poser.pugx.org/alitindrawan24/laravel-ip-whitelist/downloads)](https://packagist.org/packages/alitindrawan24/laravel-ip-whitelist)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Laravel IP Whitelist is a package contain middleware to allow a list of IP addresses to access a specific web resource.
