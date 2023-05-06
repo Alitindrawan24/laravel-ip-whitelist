@@ -16,7 +16,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Alitindrawan24\\IPWhitelist\\IPWhitelistPackageServiceProvider"
+                "Alitindrawan24\\IPWhitelist\\IPWhitelistServiceProvider"
             ]
         }
     }
