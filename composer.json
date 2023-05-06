@@ -5,6 +5,7 @@
             "Alitindrawan24\\IPWhitelist\\": "src"
         }
     },
+    "license": "MIT",
     "authors": [{
         "name": "Alit Indrawan",
         "email": "alitindrawan71@gmail.com"
@@ -19,5 +20,7 @@
                 "Alitindrawan24\\IPWhitelist\\IPWhitelistServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
