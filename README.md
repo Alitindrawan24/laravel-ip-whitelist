@@ -13,10 +13,28 @@ You can install the package via composer:
 composer require alitindrawan24/laravel-ip-whitelist
 ```
 
-Optionally you can publish the config file with:
+You can publish the config file with:
 
 ```bash
 php artisan vendor:publish --provider="Alitindrawan24\IPWhitelist\IPWhitelistServiceProvider" --tag="config" 
+```
+
+By default the IP Whitelist feature is disabled, to enable the feature you add this in your .env
+
+```bash
+IP_WHITELIST_ENABLE=true
+```
+
+You can add the list of IP that allowed in config/ip-whitelist.php
+
+```php
+/**
+ * List of IP Whitelist.
+ * Only IP in this list is allowed to pass the middleware.
+ */
+'ip_whitelist' => [
+    // '127.0.0.1' // Localhost example
+],
 ```
 
 ## Usage
