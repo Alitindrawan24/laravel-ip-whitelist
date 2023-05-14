@@ -2,7 +2,8 @@
     "name": "alitindrawan24/laravel-ip-whitelist",
     "autoload": {
         "psr-4": {
-            "Alitindrawan24\\IPWhitelist\\": "src"
+            "Alitindrawan24\\IPWhitelist\\": "src",
+            "Alitindrawan24\\IPWhitelist\\Tests\\": "tests"
         }
     },
     "license": "MIT",
@@ -22,5 +23,15 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "require-dev": {
+        "orchestra/testbench": "^6.27",
+        "pestphp/pest": "^1.23",
+        "pestphp/pest-plugin-laravel": "^1.4"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
 }
